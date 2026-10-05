@@ -1,0 +1,52 @@
+{
+  "task_A": {
+    "n": 10,
+    "boundary_accuracy": 1.0,
+    "hallucination_rate": 0.0
+  },
+  "task_B": {
+    "n": 31,
+    "accuracy": 1.0,
+    "ece": 0.056774193548387086,
+    "brier": 0.005664516129032258,
+    "auroc": NaN,
+    "domain_calibration": {
+      "arithmetic": {
+        "n": 9,
+        "accuracy": 1.0,
+        "mean_confidence": 0.956,
+        "overconfidence_gap": -0.044
+      },
+      "commonsense": {
+        "n": 4,
+        "accuracy": 1.0,
+        "mean_confidence": 0.972,
+        "overconfidence_gap": -0.028
+      },
+      "logic": {
+        "n": 6,
+        "accuracy": 1.0,
+        "mean_confidence": 0.963,
+        "overconfidence_gap": -0.037
+      },
+      "science": {
+        "n": 12,
+        "accuracy": 1.0,
+        "mean_confidence": 0.914,
+        "overconfidence_gap": -0.086
+      }
+    }
+  },
+  "task_C": {
+    "n": 31,
+    "meta_accuracy": 1.0,
+    "meta_auroc": NaN
+  },
+  "task_D": {
+    "n": 41,
+    "overall_accuracy": 1.0,
+    "acc_auc": 0.975609756097561,
+    "selective_gain": -0.024390243902439046,
+    "abstain_rate": 0.0
+  }
+}

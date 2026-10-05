@@ -1,0 +1,9 @@
+# MetaScope 零依赖声明
+
+本基准**不需要安装任何第三方包**。
+
+- Python 版本要求：3.8+（含 3.14）
+- 依赖：仅标准库 `json / random / math / urllib / pathlib`
+- 运行方式：`python run_pipeline.py ...` 直接运行
+
+如环境缺少 Python，请先安装 [python.org](https://www.python.org/downloads/) 的官方 Python 3.8+。
